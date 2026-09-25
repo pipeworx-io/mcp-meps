@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/meps",
   "title": "Meps",
   "description": "MEPS — what Americans actually take, and what for.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/meps",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-meps",
