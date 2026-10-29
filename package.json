@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-meps",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "MEPS — what Americans actually take, and what for.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-meps": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "meps"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-meps.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/meps",
   "pipeworx": {
-    "sourceHash": "v1-2b4f252d16c2f65b6445f4b1c7e45ea1bf500e7274b0515e4a2b5d8f860ca97b",
-    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
+    "mode": "gateway",
+    "slug": "meps",
+    "gatewaySlug": "meps",
+    "sourceHash": "v1-adbd0c19b79c5ceebb76236208d6f2fee9e5a92f67a92b5f851097470947552b",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
