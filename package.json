@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-meps",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MEPS — what Americans actually take, and what for.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "meps",
     "gatewaySlug": "meps",
-    "sourceHash": "v1-adbd0c19b79c5ceebb76236208d6f2fee9e5a92f67a92b5f851097470947552b",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-f3b3720ccc27183127ebc7552cfd90751fd552eb49aed62490471798f2ce5897",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
